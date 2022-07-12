@@ -1,16 +1,17 @@
 {
-  "name": "solvit-api",
+  "name": "bank",
   "version": "1.0.0",
-  "description": "API for Managing SolveIT premeses",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production node server",
-    "dev": "nodemon server"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.1",
-    "express": "^4.18.1"
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security"
   }
 }
